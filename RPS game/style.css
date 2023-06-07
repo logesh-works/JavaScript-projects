@@ -1,0 +1,139 @@
+/* Reset default styles */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f2f2f2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+/* Container styles */
+#container {
+ max-width: 800px;
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+#heading {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#heading h1 {
+ font-size: 36px;
+ color: #333;
+}
+
+/* Button styles */
+#btns {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#btns h2 {
+ font-size: 24px;
+ color: #555;
+}
+
+button {
+ padding: 10px 20px;
+ font-size: 18px;
+ color: #fff;
+ background-color: #333;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-right: 10px;
+}
+
+button:hover {
+ background-color: #555;
+}
+
+/* Choose styles */
+#me,
+#com {
+ font-weight: bold;
+ color: #333;
+}
+
+/* Win styles */
+#win {
+ font-size: 24px;
+ font-weight: bold;
+ color: #333;
+ margin-top: 20px;
+}
+
+/* Reset styles */
+#reset {
+ text-align: center;
+ margin-top: 20px;
+}
+
+button[type="reset"] {
+ padding: 10px 20px;
+ font-size: 18px;
+ color: #333;
+ background-color: #ccc;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button[type="reset"]:hover {
+ background-color: #999;
+}
+
+/* Left and right sections styles */
+#left,
+#right {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#left {
+ margin-right: 20px;
+}
+
+#right {
+ margin-left: 20px;
+}
+
+h2 {
+ font-size: 24px;
+ color: #555;
+ margin-bottom: 10px;
+}
+
+h1 {
+ font-size: 48px;
+ color: #333;
+}
+
+.vl {
+ border-left: 2px solid #ccc;
+ height: 100px;
+ margin-bottom: 10px;
+}
+
+.v2 {
+ border-left: 2px solid #ccc;
+ height: 160px;
+ margin-bottom: 10px;
+}
+#btns h3{
+ margin-top: 10%;
+}
