@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div id="geet">
+            <form action="" method="post">
+                <label for="height">Enter your Height in CentiMeter</label>
+                <br><input type="number" placeholder="  Height here.." id="height" required>
+                <br>
+                <label for="">Enter your weight in Kilogram</label><br>
+                <input type="number" placeholder="  Weight here.." id="weight" required>
+
+            </form>
+            <button type="submit" onclick="
+            
+            const hei = document.querySelector('#height').value;
+            const wei = document.querySelector('#weight').value;
+            var res = (wei/hei/hei)*10000;
+            res = res.toPrecision(2)
+            document.getElementById('res').innerHTML = 'Result : '+res;
+            if(res < 18.5 ){
+                document.getElementById('adv').innerHTML = 'Oh no you are in underweight range eat well 👍'
+            }
+            else if(res <= 18.5 && res<=24.9){
+                document.getElementById('adv').innerHTML = 'congratulations You are in Healthy Weight range , Keep it up 😊 '
+
+            }
+            else if(res>=30){
+                document.getElementById('adv').innerHTML='Oh no you are in overweight range eat less 😁'
+            }
+            ">Summit</button>
+        </div>
+        <h2 id="res" align="center"></h2>
+        <h3 id="adv" align="center"></h3>
+    </div>
+</body>
+</html>
