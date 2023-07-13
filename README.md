@@ -7,3 +7,4 @@
 ## 3. [Stop Watch Website](https://logesh-works.github.io/JavaScript-projects/Stop%20watch/forr.html)
 ## 4. [BMI Calculator](https://logesh-works.github.io/JavaScript-projects/BMI/index.html)
 ## 5. [Age Calculator](https://logesh-works.github.io/JavaScript-projects/AgeCalculator/index.html)
+## 6. [Quiz App](https://logesh-works.github.io/JavaScript-projects/QuizApp/index.html)
